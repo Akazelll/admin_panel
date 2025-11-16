@@ -20,5 +20,5 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 Route::get('/raga',function(){
-    return view ('raga');
+    return view ('raga.15598');
 });

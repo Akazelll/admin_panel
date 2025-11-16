@@ -17,7 +17,7 @@
                         </h3>
                     </div>
                     <div class="card-body">
-                        <table class="table table-stripped">
+                        <table class="table table-striped">
                             <tbody>
                                 <tr>
                                     <th style="width: 150px; padding-left: 20px;">Nama Lengkap</th>

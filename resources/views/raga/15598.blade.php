@@ -30,6 +30,11 @@
                                 <tr>
                                     <th style="width: 150px; padding-left: 20px;">Kelas</th>
                                     <td>: A11.43UG1</td>
+                                </tr>
+                                <tr>
+                                    <th style="width: 150px; padding-left: 20px;">Email</th>
+                                    <td>: 111202415598@mhs.dinus.ac.id</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>

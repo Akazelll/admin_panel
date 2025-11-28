@@ -49,4 +49,37 @@
         @endforeach
     </table>
 
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Nama Prodi</th>
+            <th>NIM</th>
+        </tr>
+        @foreach ( \App\Models\Prodi::all() as $prodi )
+        <tr>
+            <td>{{ $prodi->nama_prodi }}</td>
+            <td>{{ $prodi->nim }}</td>
+        </tr>
+            
+        @endforeach
+
+    </table>
+
+    <table class="table table-bordered table-striped">
+        <tr>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Hobi</th>
+            <th>Prodi</th>
+        </tr>
+        @foreach ( \App\Models\Nama::all() as $nama )
+        <tr>
+            <td>{{ $nama->nama }}</td>
+            <td>{{ $nama->alamat }}</td>
+            <td>{{ $nama->hobi }}</td>
+            <td>{{ $nama->prodi->nama_prodi ?? '-' }}</td>
+        </tr>
+            
+        @endforeach
+    </table>
+
 @endsection
